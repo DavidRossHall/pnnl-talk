@@ -80,18 +80,18 @@ library(xaringanExtra)
 xaringanExtra::use_tile_view()
 ```
 
-# Chemical Proteomics Methods for Elucidating the<br>Physical Protein Targets of Environmental Contaminants
+# Chemical Proteomics Methods for Elucidating the<br> Protein Targets of Environmental Contaminants
 
 .left-column[
 <br>
 <br>
 ## **David Hall**
-## Final Oral Exam
-## Dec. 9, 2022
+### PNNL Seminar,<br>Biological Sciences Division
+### May 1st, 2022
 ## 
 ]
 
-.footnoteLeft[Slides available here: .my-bold[[davidrosshall.github.io/phd-defence-talk](https://davidrosshall.github.io/phd-defence-talk/#1)]]
+.footnoteLeft[Slides available here: .my-bold[[davidrosshall.github.io/pnnl-talk](https://davidrosshall.github.io/pnnl-talk/#1)]]
 
 <br>
 <br>
@@ -303,7 +303,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 # During my PhD, I've developed proteomic methods to explore environmental chemical/protein interactions
 
 .center[
-![:scale 80%](images/01-intro/overview.png)
+![:scale 80%](images/01-intro/overview2.png)
 ]
 
 
@@ -379,7 +379,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 - **Nrf2**: Nuclear factor erythroid 2-related factor 2, binds to and promotes **AHR** (antioxidant response elements )
 ---
 
-# I developed an activity-based protein profiling method to identify the protein targets of mHAAs and mHAMs
+# Activity-based protein profiling lends itself to identifying the protein targets of mHAAs and mHAMs
 
 .hide-bg[
   .center[
@@ -387,9 +387,11 @@ knitr::include_graphics("images/01-intro/proteomics.png")
   ]
 ]
 
+.footnoteLeft[**mHAA** = monohaloacetic acid<br>**mHAM** = monohaloacetamide]
+
 ---
 
-# Biotin-affinity LC-MS analysis reveals compound<br> and class specific protein targets 
+# Biotin-affinity LC-MS analysis of 1 hr MCF7 cell exposures reveals compound and class specific protein targets 
 
 <!-- if possible remake figures w/ different colours so I can remove background -->
 
@@ -399,25 +401,32 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 ]
 
+.footnoteRight[• 100 µM DBP<br>• Ctrl = water]
+
 ---
-# Direct adduct monitoring directly validated many of the suspected targets of IAM and IAA
+# Direct adduct monitoring validated many of the suspected targets of IAM and IAA
 
 .hide-bg[
 .center[ 
 ![:scale 78%](images/03-DBP/fig4-adducts.jpeg)
 ]
 ]
+<!-- .footnoteLeft[![:scale 60%](images\03-DBP\nem_struct.png)] -->
+.footenoteLeft[**NEM** = N-ethylmaleimide<br>]
 
-.footenoteLeft[**NEM** = N-ethylmaleimide]
 
 ---
 
-# Direct adduct monitoring provides binding-site information such as selective modification of Cys152 on GAPDH
+# Adduct monitoring provides binding-site information such as modification of <mark style="background: #ADFF2F!important">Cys152</mark> on GAPDH by IAM and IAA
+
 .center[
-![:scale 70%](images/03-DBP/gapdh_fresh.png)
+![:scale 45%](gifs/gapdh_LG480.gif)
 ]
+
 .footnoteRight[[P04406<br>AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)]
-.footenoteLeft[**IAM** = iodoacetamide<br>**IAA** = iodoacetic acid]
+
+.footenoteLeft[**IAM** = iodoacetamide<br>**IAA** = iodoacetic acid<br>**GAPDH** = Glyceraldehyde 3-phosphate dehydrogenase]
+
 
 
 ---
@@ -465,19 +474,20 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-# .my-bold[Project 2]: Development of Fluorous Solid Phase Extraction for the Enrichement of Long-Chain PFAS modified peptides
+# .my-bold[Project 2]: Querying the *In Vitro* Proteome<br> Cysteine Reactivity of 8:2 Fluorotelomer Acrylate
 
 .left-column[
 <br>
 <br>
-## <p style="color:black;">David Hall, Jeremy Gauthier, and Hui Peng </p>
- 
-]  
+## <p style="color:black;">**David Hall**, Jeremy Gauthier, and Hui Peng </p>
+### Submitted for publication
+## 
+]
 
 <br>
 <br>
 .right[
-![:scale 60%](images/04-FSPE/fspe-toc.png)
+![:scale 60%](images/04-FSPE/fspe-toc2.png)
 ]
 
 ---
@@ -494,10 +504,9 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 # 8:2 FTAC can also form covalant adducts with glutathione
 
 .pull-left[
-![:scale 80%](images/04-FSPE/ftac-scheme_v2.png)
+![:scale 70%](images/04-FSPE/ftac-scheme_v2.png)
 ]
 
-.footnoteLeft[**GSH** = glutathione]
 
 --
 
@@ -516,14 +525,14 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 .center[
 .hide-bg[
-![:scale 60%](images/04-FSPE/FTAC-BSA-RTshifts-size.png)
+![:scale 80%](images/04-FSPE/si-bsa-anno-peps.png)
 ]
 ]
 
 .footnoteLeft[**BSA** = Bovine<br>Serum Albumin<br>**IAM** = iodoacetamide]
 ---
 
-# To selectively enrich long-chain PFAS adducted peptides I refined existing Fluorous Solid Phase Extraction methods
+# Refinement of Fluorous Solid Phase Extraction enables the selective enrichment of long-chain PFAS adducted peptides
 
 .center[
 ![:scale 90%](images/04-FSPE/fspe-scheme.png)
@@ -542,7 +551,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 --
 
-.pull-right[
+.pull-right[ 
 .hide-bg[
 ![:scale 85%](images/04-FSPE/nLC-fspe.png)
 ]
@@ -561,13 +570,15 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-# 8:2 FTAC only modifies GAPDH <mark style="background: #98FF98!important">Cys247</mark> and <br>not the catalytic <mark style="background: #ADFF2F!important">Cys152</mark> residue 
+# 8:2 FTAC and F<sub>13</sub>-IAM only modify GAPDH <mark style="background: #98FF98!important">Cys247</mark> <br>and not the catalytic <mark style="background: #ADFF2F!important">Cys152</mark> residue 
 
 .center[
-![:scale 50%](gifs/gapdh_LG480.gif)
+.hide-bg[
+![:scale 70%](images/04-FSPE/gapdh_mods.png)
 ]
-.footnoteLeft[**GAPDH** = Glyceraldehyde 3-phosphate dehydrogenase]
-.footnoteRight[[P04406<br>AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)]
+]
+.footnoteLeft[[P04406 AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)<br>**GAPDH** = Glyceraldehyde 3-phosphate dehydrogenase]
+.footnoteRight[<sup>1</sup>[Hall et al., 2020](https://doi.org/10.1021/acs.est.0c03144)<br><sup>2</sup>[Yang et al., 2005](https://doi.org/10.1021/bi0508082)]
 
 ???
 
@@ -613,7 +624,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 
 .pull-right[
-![:scale 100%](images/04-FSPE/fspe-toc.png)
+![:scale 100%](images/04-FSPE/fspe-toc2.png)
 ]
 ---
 
@@ -816,7 +827,7 @@ class: middle center
 <br>
 <br>
 .pull-right[
-![:scale 100%](images/04-FSPE/fspe-toc.png)
+![:scale 100%](images/04-FSPE/fspe-toc2.png)
 ]
 
 ---
