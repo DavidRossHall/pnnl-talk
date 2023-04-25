@@ -178,3 +178,65 @@ ggsave(filename = "images/01-intro/ahr_binding_plot.png",
       height = 4)
 
 ```
+
+# 8:2 FTAC Detection plots
+
+```{r}
+library(tidyverse)
+
+det <- read_csv("data/ftac_detections.csv") %>%
+  mutate(sample = paste0(sample, "\nn = (", sample_n,")"))
+
+# ggplot(data = det,
+#        aes(x = df,
+#            y = mean,
+#            ymin = min_range,
+#            ymax = max_range,
+#            colour = pfas)) +
+#   geom_errorbar() +
+#   geom_jitter() +
+#   facet_wrap(~sample) +
+#   scale_y_continuous(trans = "log10")
+
+rects <- data.frame(xstart = seq(0.5,3.5,1),
+                    xend = seq(1.5,4,1),
+                    col = c("yellow","orange","blue"))
+
+ggplot(data = det) +
+  geom_rect(data = rects, 
+            aes(ymin = 0, ymax = 100, 
+                xmin = xstart, 
+                xmax = xend), alpha = 0.5) +
+  geom_linerange(
+    aes(
+      x = sample,
+      ymin = 0, 
+      ymax = df, 
+      colour = pfas
+      ),
+    position = position_dodge(width = 1)
+    ) +
+  geom_point(
+    aes(
+      x = sample, 
+      y = df, 
+      colour = pfas
+    ),
+    position = position_dodge(width = 1)
+  ) +
+  
+  #geom_linerange(aes(x = sample, xend = sample, y = 0, yend = df),position = position_dodge(width = 1)) +
+  #geom_point() +
+  facet_wrap(~study, nrow = 2, scale = "free_y") +
+  labs(x = "",
+       y = "Detection frequency (%)") +
+
+ theme_bw() + 
+ theme(
+   panel.grid.major = element_blank(), 
+   panel.grid.minor = element_blank()
+       ) +
+  coord_flip() 
+
+```
+

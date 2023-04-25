@@ -1,0 +1,25 @@
+study,pfas,df,mean,min_range,max_range,sample,sample_n
+"Xia et al., ES&T, 2022",6:2 FTAC,28,0.16,0,39.6,school uniform,25
+"Xia et al., ES&T, 2022",8:2 FTAC,12,0.192,0,41.4,school uniform,25
+"Xia et al., ES&T, 2022",10:2 FTAC,8,0.383,0,26.7,school uniform,25
+"Xia et al., ES&T, 2022",6:2 FTMAC,76,132,0,1020,school uniform,25
+"Xia et al., ES&T, 2022",6:2 FTAC,12.5,0.213,0,20.7,outdoor wear,16
+"Xia et al., ES&T, 2022",8:2 FTAC,25,0.375,0,5.28,outdoor wear,16
+"Xia et al., ES&T, 2022",10:2 FTAC,50,0.644,0,4.71,outdoor wear,16
+"Xia et al., ES&T, 2022",6:2 FTMAC,56.3,0.844,0,748,outdoor wear,16
+"Xia et al., ES&T, 2022",8:2 FTMAC,6.25,0.226,0,0.255,outdoor wear,16
+"Xia et al., ES&T, 2022",8:2 FTAC,6.25,0.312,0,25.5,miscellaneous,16
+"Xia et al., ES&T, 2022",10:2 FTAC,6.25,0.392,0,18.8,miscellaneous,16
+"Xia et al., ES&T, 2022",6:2 FTMAC,18.8,0.27,0,58.3,miscellaneous,16
+"Wu et al, Environ. Pollut., 2021",6:2 FTAC,20,0.23,0,5.38,carseat foam,5
+"Wu et al, Environ. Pollut., 2021",6:2 FTMAC,20,0.22,0,115,carseat foam,5
+"Wu et al, Environ. Pollut., 2021",8:2 FTMAC,20,0.24,0,148,carseat foam,5
+"Wu et al, Environ. Pollut., 2021",6:2 FTAC,40,0.23,0,6.63,carseat fabric,15
+"Wu et al, Environ. Pollut., 2021",8:2 FTAC,13,0.28,0,37.8,carseat fabric,15
+"Wu et al, Environ. Pollut., 2021",10:2 FTAC,7,0.29,0,30.3,carseat fabric,15
+"Wu et al, Environ. Pollut., 2021",6:2 FTMAC,40,0.22,0,66,carseat fabric,15
+"Wu et al, Environ. Pollut., 2021",8:2 FTMAC,40,0.24,0,95.8,carseat fabric,15
+"Wu et al, Environ. Pollut., 2021",6:2 FTAC,19,0.23,0,2.85,carseat composite,16
+"Wu et al, Environ. Pollut., 2021",8:2 FTAC,6,0.28,0,1.08,carseat composite,16
+"Wu et al, Environ. Pollut., 2021",6:2 FTMAC,19,0.22,0,58.5,carseat composite,16
+"Wu et al, Environ. Pollut., 2021",8:2 FTMAC,19,0.24,0,87.5,carseat composite,16
