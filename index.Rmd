@@ -688,9 +688,18 @@ background-size: cover
 
 # Traditional fish embryo toxicity endpoints are poor predictors of weak acute and sublethal toxicities
 
+
+.left-column285[
 .hide-bg[
-.center[
-![:scale 75%](images/05-74PFAS/toxData.png)
+![:scale 85%](images/05-74PFAS/pfas_cats.png)
+]
+]
+
+--
+
+.right-column714[
+.hide-bg[
+![:scale 90%](images/05-74PFAS/toxData.png)
 ]
 ]
 

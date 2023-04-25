@@ -48,3 +48,17 @@
   font-weight: bold;
   color: #FFA500;
 }
+
+.right-column714 {
+  height: 92%;
+  width: 71.4%;
+  float: right;
+
+}
+
+.left-column285 {
+  height: 92%;
+  width: 28.5%;
+  height: 100%;
+  float: left;
+}
