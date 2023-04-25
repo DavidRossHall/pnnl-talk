@@ -494,6 +494,8 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 # Hydro- and oleiophobic perfluorinated alkyl substances (PFAS) are used extensively in surface coatings and polymers
 
+
+
 .center[
 ![:scale 90%](images/04-FSPE/pfas_coat.png)
 ]
