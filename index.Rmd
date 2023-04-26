@@ -280,23 +280,23 @@ knitr::include_graphics("images/01-intro/proteomics.png")
   ]
 ]
 
----
+<!-- --- -->
 
-# Expression proteomics is a survey of the proteome whereas chemical proteomics IDs chemical-protein interactions 
+<!-- # Expression proteomics is a survey of the proteome whereas chemical proteomics IDs chemical-protein interactions  -->
 
-.pull-left[![:scale 75%](images/01-intro/heatmap.png)
+<!-- .pull-left[![:scale 75%](images/01-intro/heatmap.png) -->
 
-- **Generalized** sample prep
-- **High** throughput
-- **Global proteome** profiles
-]
+<!-- - **Generalized** sample prep -->
+<!-- - **High** throughput -->
+<!-- - **Global proteome** profiles -->
+<!-- ] -->
 
-.pull-right[![:scale 75%](images/01-intro/target.png)
+<!-- .pull-right[![:scale 75%](images/01-intro/target.png) -->
 
-- **Specialized** sample prep
-- **Low** throughput
-- **Chemical-protein** interactions
-]
+<!-- - **Specialized** sample prep -->
+<!-- - **Low** throughput -->
+<!-- - **Chemical-protein** interactions -->
+<!-- ] -->
 
 ---
 
@@ -491,26 +491,35 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 
 ---
+<br><br>
+.pull-left[
+<br><br>
 
-# Hydro- and oleiophobic perfluorinated alkyl substances (PFAS) are used extensively in surface coatings and polymers
+> ### *Decades of widespread use, along with mobility and .my-bold[persistence], have resulted in .my-bold[ubiquitous PFAS contamination worldwide]. The persistence of PFAS is concerning as some chemicals can .my-bold[accumulate in tissues]...*
 
-
-
-.center[
-![:scale 90%](images/04-FSPE/pfas_coat.png)
 ]
 
-.footnoteRight[ See [Evich et al. *Science* <br>(2022)](https://www.science.org/doi/10.1126/science.abg9065) for review]
+.pull-right[![:scale 75%](images/04-FSPE/whitehouse_pfas.png)]
+
+.footnoteLeft[[Per- and Polyfluoroalkyl <br> Substances (PFAS) Report](https://www.whitehouse.gov/wp-content/uploads/2023/03/OSTP-March-2023-PFAS-Report.pdf)]
 ---
 
-# 8:2 FTAC can also form covalant adducts with glutathione
+# FT(M)AC monomers are detected in fluoropolymer treated textiles, among other consumer products
+
+.center[
+![:scale 100%](images/04-FSPE/pfas_coat.png)
+]
+
+.footnoteLeft[See [Evich et al. *Science* (2022)<br>  ](https://www.science.org/doi/10.1126/science.abg9065)for review on PFAS]
+
+.footnoteRight[Data from [Xia et al. *ES&T* (2022)](https://doi.org/10.1021/acs.est.2c02111)]
+---
+
+# LC-MS monitoring confirms that 8:2 FTAC reacts<br>with glutathione (GSH) *in vitro*
 
 .pull-left[
 ![:scale 70%](images/04-FSPE/ftac-scheme_v2.png)
 ]
-
-
---
 
 .pull-right[
 .hide-bg[
@@ -518,16 +527,15 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 ]
 
-.footnoteRight[in 10 mM NaH<sub>2</sub>PO<sub>4</sub><br>at pH 7.5, 20 °C]
+.footnoteRight[*in 10 mM NaH<sub>2</sub>PO<sub>4</sub><br>at pH 7.5, 20 °C*]
 ---
 
-# Low-intensity and overlapping retention times of 8:2 FTAC modified peptides hampers detection
-
+# Detection of 8:2 FTAC modified peptides hampered by low-intensity and overlapping retention times of modified peptides 
 <!--adjust label on y-axis to state "Cysteine containing peptide" --> 
 
 .center[
 .hide-bg[
-![:scale 80%](images/04-FSPE/si-bsa-anno-peps.png)
+![:scale 80%](images/04-FSPE/si-bsa-anno-peps2.png)
 ]
 ]
 
@@ -600,7 +608,6 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-
 # 8:2 FTAC adducts promote protein aggregation in crude cell lysates; suggesting new possible mechanism of toxicity
 
 
@@ -657,6 +664,16 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ]
 
+
+---
+
+background-image: url("images/05-74PFAS/74PFAS.png")
+background-size: cover
+
+# PFAS are a structurally diverse class of compounds
+
+.footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br><br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
+
 ---
 
 background-image: url("images/05-74PFAS/zebrafish_embryo_1hpf.png")
@@ -680,15 +697,6 @@ background-size: cover
 
 ---
 
-background-image: url("images/05-74PFAS/74PFAS.png")
-background-size: cover
-
-# PFAS are a structurally diverse class of compounds
-
-.footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br><br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
-
----
-
 # Traditional fish embryo toxicity endpoints are poor predictors of weak acute and sublethal toxicities
 
 .left-column285[
@@ -696,8 +704,6 @@ background-size: cover
 ![:scale 85%](images/05-74PFAS/pfas_cats.png)
 ]
 ]
-
---
 
 .right-column714[
 .hide-bg[
@@ -719,19 +725,19 @@ background-size: cover
 
 .footnoteRight[[DIA-NN by <br> Demichev et al. 2020](https://www.nature.com/articles/s41592-019-0638-x)]
 
----
+<!-- --- -->
 
-# DIA aquisition captures more information than standard DDA, but at the cost of increased data complexity
+<!-- # DIA aquisition captures more information than standard DDA, but at the cost of increased data complexity -->
 
-.pull-left[
-![:scale 65%](images/05-74PFAS/dda.png)
-]
+<!-- .pull-left[ -->
+<!-- ![:scale 65%](images/05-74PFAS/dda.png) -->
+<!-- ] -->
 
---
+<!-- -- -->
 
-.pull-right[
-![:scale 65%](images/05-74PFAS/dia.png)
-]
+<!-- .pull-right[ -->
+<!-- ![:scale 65%](images/05-74PFAS/dia.png) -->
+<!-- ] -->
 
 ---
 
