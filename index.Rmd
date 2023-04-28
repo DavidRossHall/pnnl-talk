@@ -280,24 +280,6 @@ knitr::include_graphics("images/01-intro/proteomics.png")
   ]
 ]
 
-<!-- --- -->
-
-<!-- # Expression proteomics is a survey of the proteome whereas chemical proteomics IDs chemical-protein interactions  -->
-
-<!-- .pull-left[![:scale 75%](images/01-intro/heatmap.png) -->
-
-<!-- - **Generalized** sample prep -->
-<!-- - **High** throughput -->
-<!-- - **Global proteome** profiles -->
-<!-- ] -->
-
-<!-- .pull-right[![:scale 75%](images/01-intro/target.png) -->
-
-<!-- - **Specialized** sample prep -->
-<!-- - **Low** throughput -->
-<!-- - **Chemical-protein** interactions -->
-<!-- ] -->
-
 ---
 
 # During my PhD, I've developed proteomic methods to explore environmental chemical/protein interactions
@@ -501,7 +483,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 .pull-right[![:scale 75%](images/04-FSPE/whitehouse_pfas.png)]
 
-.footnoteLeft[[Per- and Polyfluoroalkyl <br> Substances (PFAS) Report](https://www.whitehouse.gov/wp-content/uploads/2023/03/OSTP-March-2023-PFAS-Report.pdf)]
+.footnoteLeft[[Per- and Polyfluoroalkyl <br> Substances (PFAS) Report (2023)](https://www.whitehouse.gov/wp-content/uploads/2023/03/OSTP-March-2023-PFAS-Report.pdf)]
 ---
 
 # FT(M)AC monomers are detected in fluoropolymer treated textiles, among other consumer products
@@ -885,26 +867,4 @@ background-size: cover
 ![:scale 60%](images/01-intro/thesis-toc.png)
 ]
 .footnoteLeft[Slides available here: .my-bold[[davidrosshall.github.io/pnnl-talk](https://davidrosshall.github.io/pnnl-talk/#1)]]
-<!-- --- -->
-
-<!-- # SI: Entries in the 74 PFAS chemical library -->
-
-<!-- ```{r} -->
-<!-- library(tidyverse) -->
-<!-- library(DT) -->
-
-<!-- pfas_table <- read_csv(file = "data/pfas_imgs.csv")  -->
-
-<!-- DT::datatable(pfas_table, -->
-<!--                     escape = FALSE, -->
-<!--                     rownames= FALSE, -->
-<!--                     options = list( -->
-<!--                       scrollY = '400px', -->
-<!--                       paging = FALSE, -->
-<!--                       sScrollX = "100%", -->
-<!--                       scrollCollapse = TRUE -->
-<!--                                        ))  -->
-<!-- ``` -->
-
-
 
