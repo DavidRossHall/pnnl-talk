@@ -114,6 +114,9 @@ background-color: #000000
 ???
 
 - Humans have always used animal to test toxicity, even if we didn't understand what was happening.
+- Photo from 1928, but tradition of using animals extends for millenia. 
+- Entered common vernacular - "*Canary in a coal mine*"
+
 ---
 class: inverse
 background-image: url(images/01-intro/lozenge.jpg)
@@ -124,6 +127,7 @@ background-color: #000000
 
 ???
 
+- As we increased our use of chemicals, our need to understand their risk increased as well. 
 - Referring to the 1858 Bradford sweet poisoning where sweets accidentally made w/ arsenic killed > 200 people
 - Lead to the Pharmacy Act of 1868, limiting sales of poisons and drugs to qualified pharmacists 
 
@@ -137,6 +141,7 @@ background-color: #000000
 
 ???
 
+- Early efforts to understand were crude.
 - *Poison Squad*, a group of 12 volunteers who in **1901** set out to test the effects of chemical food preservatives using human trials
 - This led to the development of the FDA (U.S. Food and Drug Administration)  
 - Standing guy is William R. Carter, cook/guy who dosed food. Retired from FDA in 1946 as a charter member and pharmacist. 
@@ -151,6 +156,7 @@ background-color: #000000
 
 ???
 
+- Human test quickly shifted to animal studies, rapidly standardized for routine testing. 
 - Draize test developed in 1944 at US FDA
 - Initially use for cosmetics, but expanded to other compounds
 - Topical application of suspected irritant, observed 14 days
@@ -165,6 +171,7 @@ background-color: #000000
 .footnoteRight[[Caven<br>Images<br>(2021)](https://www.nature.com/articles/d43978-021-00009-6)]
 
 ???
+
 - Modern assessments have improved in understanding and quality of animal welfare
 - Triaged using *in vitro* screening; lower doses; and lower endpoints 
 - Still reliant on animal testing
@@ -210,6 +217,8 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 
 ???
 
+- Implicitly understand this; think dogs can't eat chocolate or failure of candidates during the transition form animal- to human-trials
+- PCB77 family of persistant organic pollutants notes for hydrophobicity, halogenated, and plannar geometry 
 - Landfowl (*galliformes*) such as **Chickens** are susceptible to halogenated aryl hydrocarbons (HAHs) unlike waterfowl (*Anseriformes*) such as **Ducks** and **Gulls**
 
 ---
@@ -228,7 +237,9 @@ knitr::include_graphics("images/01-intro/aop.png")
 
 ???
 
-- MIEs are most likely proteins 
+- AOPS fundamental to addressing thiese problems
+- Idea is if we understand how a chemical is toxic, we can test against it's MIE to increase throughput testing
+- Proteins are the mediators of cellular activity, therefo MIEs are likely to be proteins. 
 
 ---
 
@@ -242,7 +253,8 @@ knitr::include_graphics("images/01-intro/aop.png")
 
 ???
 
-- **AHR** is the **molecular initiating event** for halogenated aryl hydrocarbon toxicity. 
+- Compound in pocket is TCDD, similar family of pops as PCB77
+- Binding to AHR is the MIE for plannar, halogenated, hydropbohic compounds.
 
 --
 
@@ -258,6 +270,7 @@ knitr::include_graphics("images/01-intro/aop.png")
 
 - Waterfowl and landfowl AHR **binding pocket differs by 3 amino acids**
 - 2 of which control binding 
+
 ---
 class: inverse middle center
 background-image: url(images/01-intro/cell.png
@@ -318,6 +331,11 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 .footnoteRight[[Data from<br>Hrudey<br>2009](https://www.sciencedirect.com/science/article/pii/S0043135409000943?via%3Dihub#fig4)]
 
+???
+
+- Water chlorination is one of the greatest public health advacnements 
+- Consumption of drinking water is linked to bladder cancer, among other adverse health effects. 
+
 ---
 
 # Adverse health outcomes of chlorinated water are caused by halogenated disinfection byproducts 
@@ -328,8 +346,8 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 .footnoteRight[.my-bold[[THMs](https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-trihalomethanes.html)] and .my-bold[[HAA5](https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-haloacetic-acids.html)] are <br>regulated in Canada]
 
 ???
-
-- Regulated compounds are most abbundant, but not the most toxic. 
+- DBPs form as by products during same oxidation reactions used to disinfect water
+- Regulated compounds are most abundant, but not the most toxic. 
 - General trend in toxicity is towards bottom-right. 
 
 ---
@@ -344,7 +362,8 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ???
 
-- Goal of project is to identify proteins modified by DBPs to assess toxicity. 
+- HAAs and HAMs are reported to be mutagenic, but do not bind to nucleic acids
+- Beleived to react with nucleophilic cysteins via SN2 reactions
 
 
 --
@@ -356,6 +375,13 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 .footnoteRight[[Marina & Gladyshev<br> *JBC*, 2012]()]
 
 <!-- get CHO cytoxicuty date here: https://www.sciencedirect.com/science/article/pii/S1001074217303285 -->
+
+???
+
+- Cysteins occupy critical and distinct roles
+- Goal of project is to identify proteins modified by DBPs to assess toxicity. 
+
+
 ---
 
 # Order of DBP cytoxicity is I > Br >> Cl,<br>but only HAMS induce Nrf2 oxidative stress
